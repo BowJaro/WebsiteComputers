@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace DozLapAPI.Models;
+namespace DozLapAPI.Entities;
 
 public partial class DozLapDbContext : DbContext
 {

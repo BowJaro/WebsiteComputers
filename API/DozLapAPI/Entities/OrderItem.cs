@@ -1,21 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DozLapAPI.Models;
+namespace DozLapAPI.Entities;
 
-public partial class ShoppingCartItem
+public partial class OrderItem
 {
     public long Id { get; set; }
 
-    public long? CustomerId { get; set; }
+    public long? OrderId { get; set; }
 
     public long? ProductId { get; set; }
 
     public long? Quantity { get; set; }
 
-    public DateTime? CreatedOnUtc { get; set; }
+    public short? Rate { get; set; }
 
-    public virtual Customer? Customer { get; set; }
+    public string? Comment { get; set; }
+
+    public virtual Order? Order { get; set; }
 
     public virtual Product? Product { get; set; }
 }

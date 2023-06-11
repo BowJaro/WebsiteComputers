@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DozLapAPI.Models;
+namespace DozLapAPI.Entities;
 
 public partial class DiscountAppliedCategory
 {

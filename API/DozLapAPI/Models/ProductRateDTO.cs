@@ -1,4 +1,4 @@
-﻿namespace DozLapAPI.DTOs
+﻿namespace DozLapAPI.Models
 {
     public class ProductRateDTO
     {
